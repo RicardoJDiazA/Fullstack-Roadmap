@@ -23,3 +23,7 @@ The head element provides general information called metadata about the document
 Meta tags control how search engines should crawl and index content. 
 # Body
  The body tag is used to render and display the content of a website to users.
+# Paragraph or p element
+element p represents a paragraph. A paragraph is a block of text consisting of one or more sentences that refer to a particular topic and are normally separated from others by a blank space
+# Headings
+Headings ( headers) help both users and search engines read and understand the texts that make up a website. They act as indicators for readers and make it easier for people to understand what a publication or page is about.
