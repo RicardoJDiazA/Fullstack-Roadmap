@@ -10,3 +10,13 @@ To start doing things we must know the concepts and eager to learn. The fundamen
 Items are considered containers for content. The opening and closing tags tell the browser what content the item contains. The browser can use that information to determine how you should interpret and format the content.
 Its important to use the right tags for the content. Using the right tags can have a big impact on two aspects of your websites, how they rank in search engines; and how accessible they are to users who rely on technologies, such as screen readers, to use the Internet.
 Using the right elements for the content is called semantic HTML.
+# DOCTYPE 
+Indicates what type of document the browser should open and what syntax and grammar its source code uses.
+
+# DOCTYPE html
+Often the tag is forgotten, although this is one of the most important elements of an HTML document. Since today its presence is taken for granted, we should not forget to indicate the type of document of each page.
+
+# Head element
+The head element provides general information called metadata about the document, including its title and links to scripts and stylesheets.
+# Body
+ The body tag is used to render and display the content of a website to users.
