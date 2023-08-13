@@ -27,3 +27,9 @@ Meta tags control how search engines should crawl and index content.
 element p represents a paragraph. A paragraph is a block of text consisting of one or more sentences that refer to a particular topic and are normally separated from others by a blank space
 # Headings
 Headings ( headers) help both users and search engines read and understand the texts that make up a website. They act as indicators for readers and make it easier for people to understand what a publication or page is about.
+
+# Emphasis Bold and Italic Text
+strong tags are use to make text bold
+em tags are use to make text italic
+A common error is to think that tags b and i are the same as strong
+and em tags but dont add any important to the text, it doesnt add meaning to the text is just a visual representation.
