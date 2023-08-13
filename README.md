@@ -18,5 +18,8 @@ Often the tag is forgotten, although this is one of the most important elements 
 
 # Head element
 The head element provides general information called metadata about the document, including its title and links to scripts and stylesheets.
+
+# Meta
+Meta tags control how search engines should crawl and index content. 
 # Body
  The body tag is used to render and display the content of a website to users.
