@@ -42,3 +42,8 @@ The absolute path represents the full path of the resource, part of the root dir
 
 # Image tags
  img tag is used with one or more attributes. The basic way to use this tag is: img src="url". Where the src (Source) attribute contains a url as its value. This url indicates the address and name of the image to be inserted.
+
+ # CSS (Cascade Stylesheet)
+ CSS is a complementary mechanism of the HTML language that allows you to tell the browser the style you should give to the different elements when displaying the information of a website.
+ While HTML commands tell the browser that certain parts of the text are titles, subtitles, links or paragraphs, CSS is what tells it, among other things, which font, size, color or alignment a page item should have.
+
