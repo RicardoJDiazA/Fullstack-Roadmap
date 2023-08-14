@@ -39,3 +39,6 @@ The Anchor Element creates a link to other web pages, files or locations within 
 
 # Absolute or relative path
 The absolute path represents the full path of the resource, part of the root directory to the specific file being searched. For its part, the relative path represents only part of the path, since it takes into account the current directory from which you are working.
+
+# Image tags
+ img tag is used with one or more attributes. The basic way to use this tag is: img src="url". Where the src (Source) attribute contains a url as its value. This url indicates the address and name of the image to be inserted.
