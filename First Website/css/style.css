@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    background-image: url(../img/weather.png);
     color: white;
     font-size: 21px;
 }
@@ -22,24 +23,11 @@ Padding: empty space with background around an element
 All of these Add on top of the width and height!
 */
 .box {
-    background: pink;
-    width: 300px;
-    margin: 100px;
-    /*margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 200px;*/
-    border: 10px solid green;
-    /*border-width: 5px;
-    border-color: red;
-    border-style: solid;*/
-    padding: 100px 25px;/*top right bottom left*/
-    /*padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-bottom: 300px;
-
-*/
-/* Total width = 300px + 100px +100px +25px +25px +10px +10px = 570px*/
+    background-image: url(../img/airplane.jpeg);
+    margin: 200px 200px;
+    padding: 50px 100px 250px;
+background-repeat: no-repeat;
+background-size: cover;
     
 
 }
