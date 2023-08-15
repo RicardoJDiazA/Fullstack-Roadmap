@@ -10,25 +10,36 @@ p {
 
 h1 {
     font-size: 70px;
-    color: pink;
+    color: darkblue;
 }
 
-.highlight {
-    color: green;
-}
-.accent-color {
-    color: yellow;
-}
-.top-section {
- background: pink;
-}
+/*The CSS BOX MODEL*/
+/*
+Margin: empty space around an element
+Border: a border / stroke / around an element
+Padding: empty space with background around an element
 
-.bottom-section {
-background: darkblue;
-}
+All of these Add on top of the width and height!
+*/
+.box {
+    background: pink;
+    width: 300px;
+    margin: 100px;
+    /*margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px;*/
+    border: 10px solid green;
+    /*border-width: 5px;
+    border-color: red;
+    border-style: solid;*/
+    padding: 100px 25px;/*top right bottom left*/
+    /*padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 300px;
 
+*/
+/* Total width = 300px + 100px +100px +25px +25px +10px +10px = 570px*/
+    
 
-.intro {
-    font-size: 30px;
-    color: yellow;
 }
