@@ -47,3 +47,8 @@ The absolute path represents the full path of the resource, part of the root dir
  CSS is a complementary mechanism of the HTML language that allows you to tell the browser the style you should give to the different elements when displaying the information of a website.
  While HTML commands tell the browser that certain parts of the text are titles, subtitles, links or paragraphs, CSS is what tells it, among other things, which font, size, color or alignment a page item should have.
 
+ # divs and spans
+  div tag comes from division, practically works and serves as a block container, that is, it can contain one or several HTML elements within it, is quite used to group several elements that will then be pointed with CSS in order to give a suitable style to that group, or it can also serve to better organize our website. 
+  
+  The span tag also works as a container but in this case it will be an online container. For example, to highlight a word or expression within a paragraph we’ll use the span tag to enclose that word or expression and then style it with an attribute. Or we can also give you an identifier, either id or class to then write it down and layout it with CSS.
+
