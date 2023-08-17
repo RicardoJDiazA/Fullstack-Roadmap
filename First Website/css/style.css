@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     background-image: url(../img/weather.png);
-    color: #2f4C5C;
+    color: green;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 21px;
 }
@@ -21,13 +21,31 @@ p {
     margin-bottom: 20px;
     line-height: 1.4;
     font-size: 20px;
-    font-weight: lighter;
+    color: firebrick;
+}
+/**Right order of css links
+
+a:link {
+    color: #000;
 }
 
-.bolder {
-    font-weight: bolder;
+a:visited {
+    color: violet;
 }
 
-.bold {
-    font-weight: bold;
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: yellow;
+}
+*/
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #555;
 }
