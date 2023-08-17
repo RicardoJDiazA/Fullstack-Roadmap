@@ -1,33 +1,33 @@
 body {
     background-color: #000;
     background-image: url(../img/weather.png);
-    color: white;
+    color: #2f4C5C;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 21px;
-}
-
-p {
-    color: #FF3300;
 }
 
 h1 {
     font-size: 70px;
     color: darkblue;
+    margin-bottom: 0;
 }
 
-/*The CSS BOX MODEL*/
-/*
-Margin: empty space around an element
-Border: a border / stroke / around an element
-Padding: empty space with background around an element
+h2 {
+    margin-top: 0;
+}
 
-All of these Add on top of the width and height!
-*/
-.box {
-    background-image: url(../img/airplane.jpeg);
-    margin: 200px 200px;
-    padding: 50px 100px 250px;
-background-repeat: no-repeat;
-background-size: cover;
-    
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: lighter;
+}
 
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
 }
