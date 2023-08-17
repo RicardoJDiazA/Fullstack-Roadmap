@@ -1,7 +1,6 @@
 body {
-    background-color: #000;
-    background-image: url(../img/weather.png);
-    color: green;
+    background-color: white;
+    color: grey;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 21px;
 }
@@ -21,31 +20,37 @@ p {
     margin-bottom: 20px;
     line-height: 1.4;
     font-size: 20px;
-    color: firebrick;
-}
-/**Right order of css links
-
-a:link {
-    color: #000;
+    
 }
 
-a:visited {
-    color: violet;
-}
-
-a:active {
-    color: blue;
-}
-
-a:hover {
-    color: yellow;
-}
-*/
 a {
-    color: black;
+    
     text-decoration: none;
 }
 a:hover,
 a:focus {
-    color: #555;
+    color: blue;
 }
+
+.body-text {
+    background-color: #79acd1;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color: #f7c0f4;
+}
+
+.body-text a:hover {
+    color: #DDD;
+}
+
+.important-link,
+.body-text .important-link{
+    color: yellow;
+}
+
