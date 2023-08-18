@@ -52,3 +52,7 @@ The absolute path represents the full path of the resource, part of the root dir
   
   The span tag also works as a container but in this case it will be an online container. For example, to highlight a word or expression within a paragraph we’ll use the span tag to enclose that word or expression and then style it with an attribute. Or we can also give you an identifier, either id or class to then write it down and layout it with CSS.
 
+  # Flexbox
+  It is really important to remember when we use CSS, we must follow a order structure order to achieve our goals, and in this way avoid untying or problems with effects or properties not shown
+  
+
