@@ -1,17 +1,19 @@
-.nav-list{
-    display: flex;
-    /*justify-content: center;
-    justify-content: flex-start;
-    justify-content: flex-end;
-    justify-content: space-between;
-    justify-content: space-around;
-    */
-    flex-direction: column;
-    justify-content: space-between;
-    height: 50vh;
-    gap: 1rem;
+.grid-even-columns{
+ display: grid;
+ /*grid-template-columns: 50% 50%;*/
+ gap: 1rem;
+ /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+ /*grid-template-columns: repeat(4,1fr);*/
 
-    margin: 0;
-    padding: 0;
-    list-style: none;
+}
+@media (min-width: 40em) {
+    .grid-even-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 60em) {
+    .grid-even-columns {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
