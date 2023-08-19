@@ -54,5 +54,9 @@ The absolute path represents the full path of the resource, part of the root dir
 
   # Flexbox
   It is really important to remember when we use CSS, we must follow a order structure order to achieve our goals, and in this way avoid untying or problems with effects or properties not shown
-  
+
+  # Justify content
+  To be able to justify elements in flexbox, it is really important to have space to do so, although it seems obvious, many times this property does not work because there is no space on the left side for this proposition
+
+
 
